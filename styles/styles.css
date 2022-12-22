@@ -16,51 +16,60 @@ body {
   /* Layout */
   box-sizing: border-box;
   font-family: "Kumbh Sans", sans-serif;
-  max-width: 100vw;
-  max-height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 main {
-  background-color: #fff;
-  border-radius: 1.2em;
-  width: 23em;
-  height: 25em;
   margin: 0 auto;
   margin-top: 13em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 23em;
+  height: 25em;
 }
 main .card {
-  font-size: 1em;
-}
-main .card .card-img {
-  z-index: 1;
-  margin-top: -2.2em;
-  height: 10em;
-  width: 23em;
-  border-radius: 1em 1em 0 0;
+  border-radius: 1em;
+  width: 21.8em;
+  max-height: 25em;
+  padding-top: 4.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0.5rem 2rem #6a6f81;
+  background: url(../images/bg-pattern-card.svg) no-repeat;
+  background-color: #fff;
 }
 main .card .card-header {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
-  text-align: center;
 }
 main .card .card-header .card-pfp {
   border-radius: 50%;
   border: 0.5em solid #fff;
   z-index: 2;
 }
-main .card .card-header span {
-  font-weight: lighter;
+main .card .card-header .card-header-info {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  padding: 0.5em 0;
+}
+main .card .card-header .card-header-info .card-name {
+  font-size: 1.3em;
+  color: hsl(229deg, 23%, 23%);
+}
+main .card .card-header .card-header-info .card-age {
+  font-size: 1.3em;
   color: hsl(0deg, 0%, 59%);
+}
+main .card .card-header .card-location {
+  color: hsl(0deg, 0%, 59%);
+  padding: 0 0 2.2em 0;
 }
 main .card .card-profile-stats {
   width: 100%;
-  padding: 1.5rem 0;
+  padding: 2rem 0;
   border-top: 1px solid #e3e3e3;
   text-align: center;
   display: flex;
