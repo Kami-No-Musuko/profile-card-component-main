@@ -18,17 +18,19 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Overview
 
+Creating a profile card with a mobile first approach
+
 ### The challenge
 
 - Build out the project to the designs provided
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](images/mysolution.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Kami-No-Musuko/profile-card-component-main)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -41,28 +43,25 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - SCSS
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+Mainly the way to have the pfp of victor on top of the pattern picture using the pattern picture as a background is a pretty interesting method, simple too.
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+body {
+  /* Background Images */
+  background-color: $primary1-dark-cyan;
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right 52vw bottom 40vh, left 50vw top 50vh;
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
+  /* Layout */
+  box-sizing: border-box;
+  font-family: $font-family;
+  width: 100vw;
+  height: 100vh;
+}
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
@@ -74,7 +73,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [Example resource 1](https://www.W3Schools.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
@@ -85,4 +83,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I found their approach interesting.
+https://github.com/hesam-fattahi/profile-card-component-main
