@@ -11,7 +11,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -30,8 +29,8 @@ Creating a profile card with a mobile first approach
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Kami-No-Musuko/profile-card-component-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Kami-No-Musuko/profile-card-component-main)
+- Live Site URL: (http://d4vidk.uk/profile-card-component-main/)
 
 ## My process
 
