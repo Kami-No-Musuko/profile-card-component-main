@@ -52,13 +52,58 @@ main{
         justify-content: center;
         flex-direction: column;
         flex-wrap: wrap;
+        text-align: center;
         .card-pfp{
             border-radius: 50%;
             border: .5em solid $color-white;
             z-index: 2;
         }
+        span{
+            font-weight: lighter;
+            color:$darkgray;
+        }
+      }   
+      .card-profile-stats{
+        width: 100%;
+        padding: 1.5rem 0;
+        border-top: 1px solid lighten($darkgray, 30%);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      .stat {
+        &-number {
+          font-weight: 700;
+          color: $very-dark-desaturated-blue;
+          margin-bottom: 0.4rem;
+          font-size: 1.2rem;
+        }
+      
+        &-text {
+          font-weight: 400;
+          font-size: .8rem;
+          letter-spacing: 1px;
+          color: $dark-grayish-blue;
+        }
     }
-  }
+    //   .card-bottom-info{
+    //       text-align: center;
+    //       border-top: 1px solid lighten($darkgray, 30%);
+    //       margin-top:1.8em;
+    //       padding: 0 0 3em 0;
+
+    //       .card-user-info{
+    //           padding:1.5em 0 0 0;
+    //           color:$dark-grayish-blue;
+    //           font-weight: 700;
+    //           word-spacing: 3em;
+    //       }
+    //     //   .card-user-info-desc{
+    //     //     word-spacing: 3em;
+    //     //   }
+    //   }
+   }
 }
 
 
